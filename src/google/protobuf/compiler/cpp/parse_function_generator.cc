@@ -65,6 +65,7 @@ bool HasWeakFields(const Descriptor* descriptor) {
 }
 bool UseDirectTcParserTable(const FieldDescriptor* field,
                             const Options& options) {
+  if (options.opensource_runtime) return false;
   if (field->cpp_type() != field->CPPTYPE_MESSAGE) return false;
   auto* m = field->message_type();
   return !m->options().message_set_wire_format() &&

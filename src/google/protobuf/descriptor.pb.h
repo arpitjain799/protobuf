@@ -24,6 +24,7 @@
 #include "google/protobuf/io/coded_stream.h"
 #include "google/protobuf/arena.h"
 #include "google/protobuf/arenastring.h"
+#include "google/protobuf/generated_message_tctable_decl.h"
 #include "google/protobuf/generated_message_util.h"
 #include "google/protobuf/metadata_lite.h"
 #include "google/protobuf/generated_message_reflection.h"
@@ -665,6 +666,8 @@ class PROTOBUF_EXPORT FileDescriptorSet final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<0, 1, 1, 0, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -1083,6 +1086,8 @@ class PROTOBUF_EXPORT FileDescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<4, 13, 6, 86, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -1278,6 +1283,8 @@ class PROTOBUF_EXPORT DescriptorProto_ExtensionRange final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<2, 3, 1, 0, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -1448,6 +1455,8 @@ class PROTOBUF_EXPORT DescriptorProto_ReservedRange final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<1, 2, 0, 0, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -1811,6 +1820,8 @@ class PROTOBUF_EXPORT DescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<4, 10, 8, 65, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -2056,6 +2067,8 @@ class PROTOBUF_EXPORT ExtensionRangeOptions_Declaration final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 6, 0, 71, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -2432,6 +2445,8 @@ class PROTOBUF_EXPORT ExtensionRangeOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<1, 3, 3, 0, 7> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -2822,6 +2837,8 @@ class PROTOBUF_EXPORT FieldDescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<4, 11, 3, 96, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -3013,6 +3030,8 @@ class PROTOBUF_EXPORT OneofDescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<1, 2, 1, 49, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -3182,6 +3201,8 @@ class PROTOBUF_EXPORT EnumDescriptorProto_EnumReservedRange final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<1, 2, 0, 0, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -3439,6 +3460,8 @@ class PROTOBUF_EXPORT EnumDescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 5, 3, 61, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -3636,6 +3659,8 @@ class PROTOBUF_EXPORT EnumValueDescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<2, 3, 1, 53, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -3840,6 +3865,8 @@ class PROTOBUF_EXPORT ServiceDescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<2, 3, 2, 51, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -4091,6 +4118,8 @@ class PROTOBUF_EXPORT MethodDescriptorProto final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 6, 1, 71, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -4773,6 +4802,8 @@ class PROTOBUF_EXPORT FileOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<5, 21, 2, 202, 12> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -5171,6 +5202,8 @@ class PROTOBUF_EXPORT MessageOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 6, 1, 0, 7> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -5727,6 +5760,8 @@ class PROTOBUF_EXPORT FieldOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<4, 12, 6, 0, 7> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -6056,6 +6091,8 @@ class PROTOBUF_EXPORT OneofOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<0, 1, 1, 0, 7> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -6409,6 +6446,8 @@ class PROTOBUF_EXPORT EnumOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 4, 1, 0, 7> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -6742,6 +6781,8 @@ class PROTOBUF_EXPORT EnumValueOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<2, 2, 1, 0, 7> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -7073,6 +7114,8 @@ class PROTOBUF_EXPORT ServiceOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<2, 2, 1, 0, 12> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -7437,6 +7480,8 @@ class PROTOBUF_EXPORT MethodOptions final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<2, 3, 2, 0, 12> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -7622,6 +7667,8 @@ class PROTOBUF_EXPORT UninterpretedOption_NamePart final :
   // helper for ByteSizeLong()
   ::size_t RequiredFieldsByteSizeFallback() const;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<1, 2, 0, 62, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -7892,6 +7939,8 @@ class PROTOBUF_EXPORT UninterpretedOption final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 7, 1, 75, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -8159,6 +8208,8 @@ class PROTOBUF_EXPORT SourceCodeInfo_Location final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 5, 0, 106, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -8332,6 +8383,8 @@ class PROTOBUF_EXPORT SourceCodeInfo final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<0, 1, 1, 0, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -8575,6 +8628,8 @@ class PROTOBUF_EXPORT GeneratedCodeInfo_Annotation final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<3, 5, 1, 64, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
@@ -8747,6 +8802,8 @@ class PROTOBUF_EXPORT GeneratedCodeInfo final :
  private:
   class _Internal;
 
+  friend class ::PROTOBUF_NAMESPACE_ID::internal::TcParser;
+  static const ::PROTOBUF_NAMESPACE_ID::internal::TcParseTable<0, 1, 1, 0, 2> _table_;
   template <typename T> friend class ::PROTOBUF_NAMESPACE_ID::Arena::InternalHelper;
   typedef void InternalArenaConstructable_;
   typedef void DestructorSkippable_;
